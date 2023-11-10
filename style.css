@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#main {
+  font-family: Arial;
+  color: white;
+}
+
+.button_outer {
+  position: relative;
+  width: 230px;
+  height: 500px;
+  border: 5px solid gray;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.button_inner {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.button_outer:hover .button_inner{
+  transform: translateY(0);
+}
+
+.button_outer > p{
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.a_button{
+  display: inline-flex;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.container{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.subtext{
+  font-size: 4.5em;
+  font-family: 'Prompt', sans-serif;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, strong, b, i, em, sub{
+  color: white;
+  font-family: Arial;
+}
+
+a{
+  color: gray;
+}
