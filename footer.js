@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <p>
         <a href=index.html>Home</a>
         |
-        <a href=index.html>About us</a>
+        <a href=about.html>About me</a>
         |
         <a href=index.html>Services</a>
         |
-        <a href=index.html>Contacting Us</a>
+        <a href=index.html>Contact info</a>
       </p>
       <p>
       <a href="https://github.com/Kokonico"><img src="socials/github-mark-white.svg" width="25px" height="25px"></a>
