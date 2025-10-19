@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
         |
         <a href=about.html>About me</a>
         |
-        <a href=index.html>Services</a>
+        <a href=services.html>Services</a>
         |
-        <a href=index.html>Contact info</a>
+        <a href=contact.html>Contact info</a>
       </p>
     </section>
     <hr>
