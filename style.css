@@ -5,65 +5,90 @@ html {
 }
 
 #main {
-    font-family: Arial, serif;
-  color: white;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 
 .button_outer {
-  position: relative;
-  width: 230px;
-  height: 500px;
-  border: 5px solid gray;
-  overflow: hidden;
-  background-color: black;
-  border-radius: 10px;
+    position: relative;
+    width: 230px;
+    height: 500px;
+    border: 5px solid gray;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
 }
 
 .button_inner {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 50%;
-  transform: translateY(100%);
-  transition: all 0.4s ease;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
 }
 
 .button_outer:hover .button_inner{
-  transform: translateY(0);
+    transform: translateY(0);
 }
 
 .button_outer > p{
-  text-decoration: none;
-  color: white;
-  font-size: 2em;
-  text-align: center;
-  font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .a_button{
-  display: inline-flex;
-  margin: 10px;
-  text-decoration: none;
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: none;
+    transition: filter 0.3s;
 }
 
+
+.inner_container:hover .a_button{
+    filter: blur(4px);
+}
+
+.a_button:hover {
+    z-index: 1000;
+    filter: blur(0px) !important;
+}
+
+
 .container{
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .subtext{
-  font-size: 4.5em;
-  font-family: 'Prompt', sans-serif;
-  color: black;
+    font-size: 4.5em;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, strong, b, i, em, sub{
-  color: white;
-    font-family: Arial, serif;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 a {
-  color: gray;
+    color: gray;
 }
