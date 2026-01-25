@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var footerHTML = `
     <hr>
     <section class="copyright" style="text-align: center;">
-      <p>© 2025 KKNC web wear</p>
+      <p>© 2026 KKNC web wear</p>
       <p>
         <a href=index.html>Home</a>
         |
