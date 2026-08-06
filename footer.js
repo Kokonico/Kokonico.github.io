@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         |
         <a href=contact.html>Contact info</a>
       </p>
+      <p>All content on this website is 100% human written.</p>
     </section>
     <section class="socials" style="text-align: center;">
       <p>
