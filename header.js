@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
   var footerHTML = `
-    <hr>
     <section class="copyright" style="text-align: center;">
       <p>
         <a href=index.html>Home</a>
@@ -12,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
         <a href=contact.html>Contact info</a>
       </p>
     </section>
-    <hr>
   `;
 
   document.body.insertAdjacentHTML('afterbegin', footerHTML);
